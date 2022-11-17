@@ -26,6 +26,7 @@ import { PrescriptionModule } from './prescription/prescription.module';
 import { AuthModule } from './auth/auth.module';
 import { SystemAdminModule } from './system-admin/system-admin.module';
 import { MailModule } from './mail/mail.module';
+import { SeederModule } from './seeder/seeder.module';
 
 @Module({
   imports: [
@@ -63,6 +64,7 @@ import { MailModule } from './mail/mail.module';
     AuthModule,
     SystemAdminModule,
     MailModule,
+    SeederModule,
   ],
   controllers: [AppController],
   providers: [AppService],
