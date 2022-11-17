@@ -2,6 +2,7 @@
 
 - [Install](#install)
   - [Run with docker](#run-with-docker)
+  - [Run Locally](#run-locally)
 
 ## [Install]()
 
@@ -40,4 +41,31 @@ yarn seed
 You can modify the seed by going into src/seeder/seeder.service.ts
 
 ### [Run Locally]()
+
+To run the project locally, first make sure you have Node.js installed. 
+The project has been tested on Node.js version 16.x, you can install 
+Node.js on POSIX systems using <a href="https://github.com/nvm-sh/nvm" >NVM</a>.
+
+Install Node by running
+
+```shell
+nvm install 16
+```
+
+You will also need a Postgres server. The project was tested on version 13, but anything above version 12 should work.
+After installing a server, copy your credentials to the .env file.
+
+After installing Node.js, install <a href="https://yarnpkg.com/getting-started/install" >Yarn</a> package manager.
+
+Use yarn to install the dependencies by running
+
+```shell
+yarn install
+```
+
+You can then start the server by running
+
+```shell
+yarn start:dev
+```
 
