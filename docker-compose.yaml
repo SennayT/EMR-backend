@@ -1,5 +1,18 @@
 version: '3.7'
 services:
+  backend:
+    container_name: backend
+    build:
+      context: .
+    command: yarn start:dev
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - ${PORT}:${PORT}
+    env_file:
+      - .env
+    depends_on:
+      - postgres
   postgres:
     image: postgres:13
     restart: unless-stopped
