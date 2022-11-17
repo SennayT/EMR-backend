@@ -1,8 +1,24 @@
+<p align="center" >
+<img src="./logo.png" alt="app logo">
+</p>
+
 ## Table of Contents
 
+- [Introduction](#introduction)
 - [Install](#install)
   - [Run with docker](#run-with-docker)
   - [Run Locally](#run-locally)
+
+## [Introduction]()
+
+This repository contains the backend api implementation for an electronic medical record-keeping system that has a
+centralized database where all the patients' records are stored. These medical records include
+vital information like medical history, allergies, and medication. This system will address the
+issues in the current system by allowing doctors access to their patients' records from other
+institutions and allowing other institutions to update their patients' records to the database and
+also letting patients view their records from several institutions at any time.
+
+The repository for the frontend, built using NextJS can be found <a href="https://github.com/SennayT/EMR-FRONTEND" > here </a>
 
 ## [Install]()
 
@@ -11,6 +27,8 @@ Clone the repo and copy the .env.example to .env
 cp .env.example .env
 ```
 ### [Run with docker]()
+
+Make sure you have docker installed, then run:
 
 Run
 
