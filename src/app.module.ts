@@ -27,6 +27,7 @@ import { AuthModule } from './auth/auth.module';
 import { SystemAdminModule } from './system-admin/system-admin.module';
 import { MailModule } from './mail/mail.module';
 import { SeederModule } from './seeder/seeder.module';
+import 'dotenv/config';
 
 @Module({
   imports: [
@@ -34,12 +35,12 @@ import { SeederModule } from './seeder/seeder.module';
     TypeOrmModule.forRoot(dbConfig),
     MailerModule.forRoot({
       transport: {
-        host: 'smtp.gmail.com',
-        service: 'Gmail',
-        port: 2525,
+        host: process.env.MAIL_HOST,
+        service: process.env.MAIL_SERVICE,
+        port: Number(process.env.MAIL_PORT),
         auth: {
-          user: 'robelshewan21@gmail.com',
-          pass: 'ruxzxctogbonnexz',
+          user: process.env.MAIL_USER,
+          pass: process.env.MAIL_PASSWORD,
         },
       },
     }),
