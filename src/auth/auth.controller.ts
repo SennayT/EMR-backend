@@ -15,7 +15,7 @@ export class AuthController {
 
   @Post('guarded')
   @UseGuards(JwtGuard, RolesGuard)
-  @Roles('Employee', 'x')
+  @Roles('Employee')
   guarded(@Request() req) {
     return { msg: req.user };
   }
