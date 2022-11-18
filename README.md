@@ -13,12 +13,12 @@
   - [Authentication and Authorization](#authentication-and-authorization)
     - [Authentication](#authentication)
     - [Authorization](#authorization)
-  - [Module Structure](#module-structure)
-    - [Module File](#module-file)
-    - [Service](#service)
-    - [Controller](#controller)
-    - [Entity](#entity)
-    - [DTO](#dto)
+- [Module Structure](#module-structure)
+  - [Module File](#module-file)
+  - [Service](#service)
+  - [Controller](#controller)
+  - [Entity](#entity)
+  - [DTO](#dto)
 
 
 ## [Introduction]()
