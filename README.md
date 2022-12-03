@@ -100,6 +100,10 @@ yarn start:dev
 
 ## [Documentation]()
 
+### [Swagger Docs]()
+
+You can find the swagger documentation at <a href="http://localhost:4000" >localhost:4000</a>
+
 ### [Database Structure]()
 
 The Entity Relationship (ER) Diagram below shows the organization of the database
