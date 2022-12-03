@@ -24,9 +24,9 @@
 ## [Introduction]()
 
 This repository contains the backend api implementation for an electronic medical record-keeping system that has a
-centralized database where all the patients' records are stored. These medical records include
+centralized database where all the patient's records are stored. These medical records include
 vital information like medical history, allergies, and medication. This system will address the
-issues in the current system by allowing doctors access to their patients' records from other
+issues in the current system by allowing doctors access to their patient's records from other
 institutions and allowing other institutions to update their patients' records to the database and
 also letting patients view their records from several institutions at any time.
 
