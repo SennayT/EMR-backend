@@ -4,7 +4,6 @@ services:
     container_name: backend
     build:
       context: .
-    command: yarn start:dev
     volumes:
       - .:/usr/src/app
     ports:
